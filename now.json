@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "builds": [{ "src": "index.rb", "use": "@now/ruby" }]
+  "builds": [
+    { "src": "index.rb", "use": "@now/ruby" },
+    { "src": "about.php", "use": "@now/php" },
+    { "src": "dashboard.js", "use": "@now/node" },
+    { "src": "create.go", "use": "@now/go" }
+  ]
 }
